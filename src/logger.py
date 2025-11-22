@@ -2,7 +2,6 @@ import logging
 import os
 import sys
 from datetime import datetime
-from time import asctime
 
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 # Path for the log file
@@ -17,5 +16,9 @@ logging.basicConfig(
     filename=LOG_FILE_PATH,
     format="[ %(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     # For which level
-    level=logging.INFO(),
+    level=logging.INFO,
 )
+
+# # Basic test
+# if __name__ == "__main__":
+#     logging.info("Logger has started.")
