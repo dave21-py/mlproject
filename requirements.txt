@@ -2,5 +2,8 @@ pandas
 numpy
 seaborn
 matplotlib
+scikit-learn
+catboost
+xgboost
 # Install this project itself in editable mode.
--e .
+# -e .
