@@ -5,5 +5,6 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 # Install this project itself in editable mode.
 # -e .
