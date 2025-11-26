@@ -1,4 +1,5 @@
 ### End-to-End Student Performance Prediction
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://student-performance-predictor-m829.onrender.com/predictdata)
 
 #### Project Overview
 This project is a complete End-to-End Machine Learning application designed to predict student test scores based on various demographic and academic factors. It demonstrates a full lifecycle of a data science project, from data ingestion and exploratory data analysis (EDA) to model training, pipeline construction, and deployment via a Flask web application.
