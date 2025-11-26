@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.prediction_pipeline import CustomData
 from src.pipeline.prediction_pipeline import PredictPipeline
+import os
 
 
 application = Flask(__name__)
@@ -39,5 +40,7 @@ def predict_datapoint():
         return render_template('home.html', results = results[0]) # This is will be in list format
 
 if __name__ == "__main__":
-    app.run(host = "0.0.0.0", debug = True, port=5002)
-
+    # Get the port from the environment variable 'PORT', default to 5002 if not found
+    port = int(os.environ.get("PORT", 5002))
+    # Run the app. Ideally debug should be False in production.
+    app.run(host="0.0.0.0", port=port)
