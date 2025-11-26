@@ -4,7 +4,7 @@
 This project is a complete End-to-End Machine Learning application designed to predict student test scores based on various demographic and academic factors. It demonstrates a full lifecycle of a data science project, from data ingestion and exploratory data analysis (EDA) to model training, pipeline construction, and deployment via a Flask web application.
 
 
-#### T3 Stack
+#### Tech Stack
 *   **Language**: Python 3.8+
 *   **Web Framework**: Flask
 *   **Data Manipulation**: Pandas, NumPy
